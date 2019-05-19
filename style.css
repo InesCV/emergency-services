@@ -90,7 +90,7 @@ h4 {
 h5 {
   font-size: 1.25rem;
   font-weight: bold;
-  padding: 1rem auto;
+  padding-bottom: 0.7rem;
 }
 
 p {
@@ -126,6 +126,35 @@ u {
   margin: auto 30px;
 }
 
+@media (min-width: 600px) {
+  .container {
+    margin: auto 100px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    margin: auto 300px;
+  }
+}
+
+.danger-container {
+  margin: auto 20px;
+}
+
+@media (min-width: 600px) {
+  .danger-container {
+    margin: auto 100px;
+  }
+}
+
+@media (min-width: 800px) {
+  .danger-container {
+    margin: auto 100px;
+  }
+}
+
+
 .header {
   /* padding-top: 164px; */
 }
@@ -146,7 +175,7 @@ u {
 }
 
 .header-preheight {
-  height: 5rem;
+  height: 4rem;
 }
 
 .header-description {
@@ -169,6 +198,34 @@ u {
   margin-bottom: 4rem;
 }
 
+.danger-preheight {
+  height: 3rem;
+}
+
+.danger-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.danger-list > li {
+  margin: 1rem;
+  min-width: 95%;
+}
+
+@media (min-width: 800px) {
+  .danger-list > li {
+    margin: 1rem 1.5rem;
+    max-width: 25%;
+    max-width: 250px;
+  }
+}
+
+
+.danger-list > li > p {
+  font-size: 1rem;
+}
 
 /* MAIN STYLES */
 
