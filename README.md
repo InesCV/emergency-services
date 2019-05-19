@@ -13,9 +13,9 @@ Landing page created to promote the KIT-PIT, a kit ro plant your won avocado tre
 ### Git
 URls for the project: repository and deploy
 
-[Repository Link](https://github.com/InesCV/WhatTheColor)
+[Repository Link](https://github.com/InesCV/emergency-services)
 
-[Deploy Link](https://inescv.github.io/WhatTheColor/)
+[Deploy Link](https://inescv.github.io/emergency-services/)
 
 
 ### Slides
