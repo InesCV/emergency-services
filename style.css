@@ -227,6 +227,18 @@ u {
   font-size: 1rem;
 }
 
+.bg-green{
+  background-color: #cad079;
+  height: 4vh;
+  margin-top: 20vh;
+  color: white;
+  text-align: center;
+}
+
+.green{
+  color: #cad079;
+}
+
 /* MAIN STYLES */
 
 
@@ -541,21 +553,25 @@ u {
 .btn-steps {
   background-color: #cad079;
   padding: 20px;
-  border-radius: 20px;
-  color: white;
+  border-radius: 40px;
+  color: #2a2a2a;
+  font-weight: bold;
   margin-bottom: 40px;
 }
 
 .btn-cont {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  margin: 20px 0;
+  justify-content: center;
 }
 
 .btn-move {
-  background-color: #cad079;
+  background-color: transparent;
   padding: 20px;
   border-radius: 20px;
   margin: 10px;
-  color: white;
+  color: #cad079;
 }
 
