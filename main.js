@@ -1,3 +1,5 @@
+// SLIDER OF THE STEPS OF PLANTING THE AVOCADO //
+
 var slideIndex = 1;
 showDivs(slideIndex);
 
